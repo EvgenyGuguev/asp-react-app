@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="RIDER_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$/../..">
-      <excludeFolder url="file://$MODULE_DIR$/.idea/dataSources" />
-      <excludeFolder url="file://$MODULE_DIR$/../../API/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../API/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Application/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Application/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Domain/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Domain/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Persistence/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../Persistence/obj" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
