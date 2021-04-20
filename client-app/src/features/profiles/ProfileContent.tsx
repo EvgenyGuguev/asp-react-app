@@ -1,6 +1,6 @@
 import React from "react";
 import {Tab} from "semantic-ui-react";
-import ProfilesPhotos from "./ProfilesPhotos";
+import ProfilesPhotos from "./ProfilePhotos";
 import {Profile} from "../../app/models/profile";
 import {observer} from "mobx-react-lite";
 
