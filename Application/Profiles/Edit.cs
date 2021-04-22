@@ -40,13 +40,15 @@ namespace Application.Profiles
             {
                 var user = await _context.Users.FirstOrDefaultAsync(x =>
                     x.UserName == _userAccessor.GetUserName());
+                
                 user.Bio = request.Bio ?? user.Bio;
                 user.DisplayName = request.DisplayName ?? user.DisplayName;
                 
+                _context.Entry(user).State = EntityState.Modified;
+                
                 var success = await _context.SaveChangesAsync() > 0;
-
+                
                 if (success) return Result<Unit>.Success(Unit.Value);
-
                 return Result<Unit>.Failure("Problem updating profile");
             }
         }
