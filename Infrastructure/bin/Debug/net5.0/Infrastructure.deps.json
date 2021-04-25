@@ -62,35 +62,35 @@
           }
         }
       },
-      "FluentValidation/10.0.3": {
+      "FluentValidation/10.0.4": {
         "runtime": {
           "lib/net5.0/FluentValidation.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.3.0"
+            "fileVersion": "10.0.4.0"
           }
         }
       },
-      "FluentValidation.AspNetCore/10.0.3": {
+      "FluentValidation.AspNetCore/10.0.4": {
         "dependencies": {
-          "FluentValidation": "10.0.3",
-          "FluentValidation.DependencyInjectionExtensions": "10.0.3"
+          "FluentValidation": "10.0.4",
+          "FluentValidation.DependencyInjectionExtensions": "10.0.4"
         },
         "runtime": {
           "lib/net5.0/FluentValidation.AspNetCore.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.3.0"
+            "fileVersion": "10.0.4.0"
           }
         }
       },
-      "FluentValidation.DependencyInjectionExtensions/10.0.3": {
+      "FluentValidation.DependencyInjectionExtensions/10.0.4": {
         "dependencies": {
-          "FluentValidation": "10.0.3",
+          "FluentValidation": "10.0.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.0.3.0"
+            "fileVersion": "10.0.4.0"
           }
         }
       },
@@ -294,28 +294,28 @@
           }
         }
       },
-      "Npgsql/5.0.2": {
+      "Npgsql/5.0.4": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "runtime": {
           "lib/net5.0/Npgsql.dll": {
-            "assemblyVersion": "5.0.2.0",
-            "fileVersion": "5.0.2.0"
+            "assemblyVersion": "5.0.4.0",
+            "fileVersion": "5.0.4.0"
           }
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.2": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.5.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore.Abstractions": "5.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "5.0.5",
-          "Npgsql": "5.0.2"
+          "Npgsql": "5.0.4"
         },
         "runtime": {
           "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "assemblyVersion": "5.0.2.0",
-            "fileVersion": "5.0.2.0"
+            "assemblyVersion": "5.0.5.1",
+            "fileVersion": "5.0.5.1"
           }
         }
       },
@@ -336,7 +336,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Domain": "1.0.0",
-          "FluentValidation.AspNetCore": "10.0.3",
+          "FluentValidation.AspNetCore": "10.0.4",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Persistence": "1.0.0"
         },
@@ -356,7 +356,7 @@
         "dependencies": {
           "Bogus": "33.0.2",
           "Domain": "1.0.0",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.2"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.5.1"
         },
         "runtime": {
           "Persistence.dll": {}
@@ -398,26 +398,26 @@
       "path": "cloudinarydotnet/1.15.1",
       "hashPath": "cloudinarydotnet.1.15.1.nupkg.sha512"
     },
-    "FluentValidation/10.0.3": {
+    "FluentValidation/10.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FfMIVWEgyio5l/IMVSYm3olf5GR96g6q7PuDYgbvw8BsGFQuN3SRTTI5QUYtI0E86tdzNrM9w8u2o+QLtRaI0A==",
-      "path": "fluentvalidation/10.0.3",
-      "hashPath": "fluentvalidation.10.0.3.nupkg.sha512"
+      "sha512": "sha512-LqEYHuF5gXBJzG9/aUQS50TJP5cZgh/twvPLV7iTtFFGF6isGBkNXOhr9VwmSjlFRIVOqcMtkGuHwuPbU+XpoQ==",
+      "path": "fluentvalidation/10.0.4",
+      "hashPath": "fluentvalidation.10.0.4.nupkg.sha512"
     },
-    "FluentValidation.AspNetCore/10.0.3": {
+    "FluentValidation.AspNetCore/10.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-44++2CeN1GD4zjaZU4A/OVS5RHwD3vWm1fSozntFt0kj/XstZl1zq+Co2iYvMqyMA+RrmnK6Qf7o7XfmWmgKTA==",
-      "path": "fluentvalidation.aspnetcore/10.0.3",
-      "hashPath": "fluentvalidation.aspnetcore.10.0.3.nupkg.sha512"
+      "sha512": "sha512-RMBkx6qPeWPci2dtE43hcp6MpWPw3pTvcnYymJdLdhyCDcz0q4XHKqaArqyLpQPlVFEEsMMKclVlMtABVUh2Sw==",
+      "path": "fluentvalidation.aspnetcore/10.0.4",
+      "hashPath": "fluentvalidation.aspnetcore.10.0.4.nupkg.sha512"
     },
-    "FluentValidation.DependencyInjectionExtensions/10.0.3": {
+    "FluentValidation.DependencyInjectionExtensions/10.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nPXKbn7tAoNy5oWAyyquCCpCvlGpBVvo1Y8UgwrGPiSthRtoeX/c4uMgfhgof1DVLvi4UFY1m7o2bcmIHCRmnw==",
-      "path": "fluentvalidation.dependencyinjectionextensions/10.0.3",
-      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.0.3.nupkg.sha512"
+      "sha512": "sha512-Er3mswiJ8wM0mXoLyKZ16pNQReqeqtq8mN0vJOSgtMfhKql1PlZndjFHNL6XsSJTEkHOymX4uOv0CUVA8Gq9Lw==",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.0.4",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512"
     },
     "MediatR/9.0.0": {
       "type": "package",
@@ -601,19 +601,19 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "Npgsql/5.0.2": {
+    "Npgsql/5.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bqsG+0t6+c7nfpunu08HkjeRZCI2g8EbXNtWUHsnFlDzjx0zsLkvzfByiHuYo9a74CMKR9RmxRu7HiPGCE/EvQ==",
-      "path": "npgsql/5.0.2",
-      "hashPath": "npgsql.5.0.2.nupkg.sha512"
+      "sha512": "sha512-wuJUsrhOKaR41ZB9Ecw9ZEpQzMQ5bRahl7w+pt4noVMDkDPbw4cMHV8UfNKeZSPLXaN4yWXPR2QgJ+2vG/85VQ==",
+      "path": "npgsql/5.0.4",
+      "hashPath": "npgsql.5.0.4.nupkg.sha512"
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.2": {
+    "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xdhI0Y1uMxEUbH00T9kLk5m4JN8b4bAHv8fX+nU3GzdEsIgI0k0tKM4ZJ/RjkvGE1L5h4Y+oBZNNqzgetOTBtg==",
-      "path": "npgsql.entityframeworkcore.postgresql/5.0.2",
-      "hashPath": "npgsql.entityframeworkcore.postgresql.5.0.2.nupkg.sha512"
+      "sha512": "sha512-yTFRZ5jMOu+Ez94YJzYKlxnbSO7h0BDSCM38xVN8ynZrS01xfP4/g8o/+InOarCkT6stZPMPD910STIsXYNQ5w==",
+      "path": "npgsql.entityframeworkcore.postgresql/5.0.5.1",
+      "hashPath": "npgsql.entityframeworkcore.postgresql.5.0.5.1.nupkg.sha512"
     },
     "System.Collections.Immutable/5.0.0": {
       "type": "package",
