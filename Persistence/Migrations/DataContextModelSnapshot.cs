@@ -149,7 +149,7 @@ namespace Persistence.Migrations
                     b.Property<Guid?>("ActivityId")
                         .HasColumnType("uuid");
 
-                    b.Property<string>("AuthotId")
+                    b.Property<string>("AuthorId")
                         .HasColumnType("text");
 
                     b.Property<string>("Body")
@@ -162,7 +162,7 @@ namespace Persistence.Migrations
 
                     b.HasIndex("ActivityId");
 
-                    b.HasIndex("AuthotId");
+                    b.HasIndex("AuthorId");
 
                     b.ToTable("Comments");
                 });
@@ -344,13 +344,13 @@ namespace Persistence.Migrations
                         .HasForeignKey("ActivityId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Domain.AppUser", "Authot")
+                    b.HasOne("Domain.AppUser", "Author")
                         .WithMany()
-                        .HasForeignKey("AuthotId");
+                        .HasForeignKey("AuthorId");
 
                     b.Navigation("Activity");
 
-                    b.Navigation("Authot");
+                    b.Navigation("Author");
                 });
 
             modelBuilder.Entity("Domain.Photo", b =>
