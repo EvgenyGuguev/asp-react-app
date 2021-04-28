@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YM2BlP2fg5t82w2GzDknSykDeZimSAGjVS7HLqiXoiDe0a8F+AHpzDEfUWKV/nKFIfzYUqSSTqEsFaHBoP3hmQ==",
+  "dgSpecHash": "hZcJigV2Zomhq8DYVhZI3QPOELxAZbm5Bycwd0rrlJEWNqNSPTpKvP2yNXsIS3qW1Zfb6mBGB6IJaXo27lVjOw==",
   "success": true,
   "projectFilePath": "/home/evgeny/RiderProjects/Reactivities/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,9 @@
     "/home/evgeny/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.1/automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "/home/evgeny/.nuget/packages/bogus/33.0.2/bogus.33.0.2.nupkg.sha512",
     "/home/evgeny/.nuget/packages/cloudinarydotnet/1.15.1/cloudinarydotnet.1.15.1.nupkg.sha512",
-    "/home/evgeny/.nuget/packages/fluentvalidation/10.0.4/fluentvalidation.10.0.4.nupkg.sha512",
-    "/home/evgeny/.nuget/packages/fluentvalidation.aspnetcore/10.0.4/fluentvalidation.aspnetcore.10.0.4.nupkg.sha512",
-    "/home/evgeny/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.0.4/fluentvalidation.dependencyinjectionextensions.10.0.4.nupkg.sha512",
+    "/home/evgeny/.nuget/packages/fluentvalidation/10.1.0/fluentvalidation.10.1.0.nupkg.sha512",
+    "/home/evgeny/.nuget/packages/fluentvalidation.aspnetcore/10.1.0/fluentvalidation.aspnetcore.10.1.0.nupkg.sha512",
+    "/home/evgeny/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.1.0/fluentvalidation.dependencyinjectionextensions.10.1.0.nupkg.sha512",
     "/home/evgeny/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
     "/home/evgeny/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/home/evgeny/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.5/microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",
