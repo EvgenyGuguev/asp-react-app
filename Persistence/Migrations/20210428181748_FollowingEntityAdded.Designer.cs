@@ -10,7 +10,7 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210428172852_FollowingEntityAdded")]
+    [Migration("20210428181748_FollowingEntityAdded")]
     partial class FollowingEntityAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -386,7 +386,7 @@ namespace Persistence.Migrations
                         .IsRequired();
 
                     b.HasOne("Domain.AppUser", "Target")
-                        .WithMany("Folowers")
+                        .WithMany("Followers")
                         .HasForeignKey("TargetId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -458,9 +458,9 @@ namespace Persistence.Migrations
                 {
                     b.Navigation("Activities");
 
-                    b.Navigation("Followings");
+                    b.Navigation("Followers");
 
-                    b.Navigation("Folowers");
+                    b.Navigation("Followings");
 
                     b.Navigation("Photos");
                 });
