@@ -61,13 +61,15 @@ namespace API
                         "https://res.cloudinary.com", 
                         "https://www.facebook.com",
                         "https://scontent-hel3-1.xx.fbcdn.net",
-                        "https://platform-lookaside.fbsbx.com"
+                        "https://platform-lookaside.fbsbx.com",
+                        "data:"
                         ))
                 .ScriptSources(s => s.Self()
                     .CustomSources(
                         "sha256-4dmgZ45Vc6ccneK0FxO5qGcYredZ3WyhWhzUc10WWwQ=", 
                         "https://connect.facebook.net",
-                        "sha256-WvvkSecfj9vZJDAIqW5ixOKzsKwIsuWqno6RDabl0d4="
+                        "sha256-WvvkSecfj9vZJDAIqW5ixOKzsKwIsuWqno6RDabl0d4=",
+                        "sha256-attoIZoOlbBh8xdHlrRCQdYy+RUvanHfB0eCyexe63s="
                         ))
             );
             
